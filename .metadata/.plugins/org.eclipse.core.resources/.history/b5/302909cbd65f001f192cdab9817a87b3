@@ -33,8 +33,7 @@ public class Program {
 			sc.nextLine();
 			
 			 Funcionario funcionario = new Funcionario(id, nome, salario);
-	         fun.add(funcionario);	
-	         System.out.println();
+	         fun.add(funcionario);			
 		}
 		
 		System.out.print("Informe o ID do funcionário que terá aumento salarial:");
@@ -57,7 +56,7 @@ public class Program {
 		} else {
 			System.out.println("Este ID não existe!");
 		}
-		System.out.println();
+		
 		System.out.println("Lista de funcionários:");
 		for (Funcionario fu : fun) {
 			System.out.println(fu);

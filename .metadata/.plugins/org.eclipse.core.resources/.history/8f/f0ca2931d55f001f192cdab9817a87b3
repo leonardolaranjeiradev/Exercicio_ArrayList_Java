@@ -16,7 +16,6 @@ public class Program {
 		
 		System.out.print("Quantos funcionários serão cadastrados?");
 		int N = sc.nextInt();
-		System.out.println();
 		
 		
 		List<Funcionario> fun = new ArrayList<>();
@@ -25,16 +24,13 @@ public class Program {
 			System.out.println("Funcionário #" + (i+1) + ":");
 			System.out.print("Id:");
 			int id = sc.nextInt();
-			sc.nextLine();
 			System.out.print("Nome:");
-			String nome = sc.nextLine();
+			String nome = sc.next();
 			System.out.print("Salário:");
 			double salario = sc.nextDouble();
-			sc.nextLine();
 			
 			 Funcionario funcionario = new Funcionario(id, nome, salario);
-	         fun.add(funcionario);	
-	         System.out.println();
+	         fun.add(funcionario);			
 		}
 		
 		System.out.print("Informe o ID do funcionário que terá aumento salarial:");
@@ -54,14 +50,11 @@ public class Program {
 			double porcentagem = sc.nextDouble();
 			func.aumentarSalario(porcentagem);
 			
-		} else {
-			System.out.println("Este ID não existe!");
 		}
-		System.out.println();
-		System.out.println("Lista de funcionários:");
-		for (Funcionario fu : fun) {
-			System.out.println(fu);
-		}	
+		
+		
+		
+		
 		
 		sc.close();
 
