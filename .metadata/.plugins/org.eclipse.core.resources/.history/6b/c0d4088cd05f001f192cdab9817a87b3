@@ -11,12 +11,6 @@ public class Funcionario {
 		this.nome = nome;
 		this.salario = salario;
 	}
-	
-	public void aumentarSalario (double porcentagem) {
-		double aumento = salario * (porcentagem / 100);
-		salario += aumento;
-	   
-	}
 
 	public int getId() {
 		return id;
