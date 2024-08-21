@@ -1,11 +1,7 @@
 package application;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-
-import entities.Funcionario;
 
 public class Program {
 
@@ -16,8 +12,6 @@ public class Program {
 		
 		System.out.print("Quantos funcionários serão cadastrados?");
 		int N = sc.nextInt();
-		
-		List<Funcionario> fun = new ArrayList<>();
 		
 		
 		

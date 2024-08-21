@@ -19,7 +19,9 @@ public class Program {
 		
 		List<Funcionario> fun = new ArrayList<>();
 		
-		
+		for () {
+			
+		}
 		
 		
 		
