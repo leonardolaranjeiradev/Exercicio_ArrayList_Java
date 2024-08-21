@@ -10,9 +10,6 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Quantos funcionários serão cadastrados?");
-		int N = sc.nextInt();
-		
 		
 		
 		
