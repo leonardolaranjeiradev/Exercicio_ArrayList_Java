@@ -5,6 +5,13 @@ public class Funcionario {
 	private String nome;
 	private double salario;
 	
+	public Funcionario(int id, String nome, double salario) {
+		
+		this.id = id;
+		this.nome = nome;
+		this.salario = salario;
+	}
+	
 	
 	
 	
